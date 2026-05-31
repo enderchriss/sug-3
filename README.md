@@ -15,3 +15,9 @@ this site contains and utilizes Valve Corporation's STEAM DECK UI sounds
 [genizy](https://github.com/genizy)
 [mercuryworkshop](https://github.com/MercuryWorkshop)
 [bog (truffled](https://truffled.lol/)
+
+## general credits
+Valve Corporation
+SteamGridDB Users
+
+## For ANY inquiries, please contact skipperbusiness439@gmail.com
