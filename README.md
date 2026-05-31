@@ -23,8 +23,8 @@ SOME, of these images, shockwave flash files, or games, are fetched from externa
 * [bog (truffled)](https://truffled.lol/)
   
 ### general credits
-* Valve Corporation
-* SteamGridDB Users
+* [Valve Corporation](https://www.valvesoftware.com/en/)
+* [SteamGridDB Users](https://www.steamgriddb.com/)
   
 ### For ANY inquiries, please contact skipperbusiness439@gmail.com
 
