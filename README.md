@@ -42,7 +42,7 @@ all icons, images, and any sort of media displayed in this site belong to their 
 ## UNBLOCK METHODS
 > these are some unblock methods for this site or others, some of these may or may not work
 
-### CHROME:CHROMESIGNIN
+### CHROME:CHROME-SIGNIN
 > you NEED to be on chromium OS for this to work, this browser flag only occurs on chromebooks, and such.
 
 1. on your chrome search bar, type chrome://chrome-signin
