@@ -1,6 +1,6 @@
 # sug-3
 
-open source, sort of modern unblocked games site
+open source, sort of modern, goodlooking, unblocked games site, made to mimick Deck UI's look
 
 ## NOTE
 this site is not made to gain any sort of profit, or financial gain.
@@ -12,13 +12,13 @@ this site contains and utilizes Valve Corporation's STEAM DECK UI sounds
 
 ## CREDITS
 ### port credits
-[genizy](https://github.com/genizy)
-[mercuryworkshop](https://github.com/MercuryWorkshop)
-[bog (truffled](https://truffled.lol/)
+* [genizy](https://github.com/genizy)
+* [mercuryworkshop](https://github.com/MercuryWorkshop)
+* [bog (truffled](https://truffled.lol/)
 
 ### general credits
-Valve Corporation
-SteamGridDB Users
+* Valve Corporation
+* SteamGridDB Users
 
 ### For ANY inquiries, please contact skipperbusiness439@gmail.com
 
