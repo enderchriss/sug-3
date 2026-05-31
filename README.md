@@ -3,7 +3,7 @@
 open source, sort of modern unblocked games site
 
 # NOTE
-i do not make such profit of this
+this site is not made to gain any sort of profit, or financial gain
 i also really suck at js so this code might look horrible
 
 # COPYRIGHT
