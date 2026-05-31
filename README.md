@@ -71,7 +71,7 @@ all icons, images, and any sort of media displayed in this site belong to their 
 
 ### FILE METHOD
 > this method commonly works, but organization administrators usually lock down embed sources using external web extensions on company/school issued devices.
-> it is very rare that this works, with the way that this works.
+> it is very rare that this works, with how dumbed down this method was made.
 
 1. anyway, download the latest [html embed file](https://github.com/enderchriss/sug-3/releases/download/PORTABLE/sug-3.html) provided in this repository
 
