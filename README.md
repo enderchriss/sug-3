@@ -61,7 +61,7 @@ search what ever you want, you can even go on github, search this repository up,
 ### FILE METHOD
 this method commonly works, but organization administrators usually lock down embed sources using external web extensions on company/school issued devices.
 it is very rare that this works, with the way that this works.
-anyway, download the latest [html embed file]() provided in this repository
+anyway, download the latest [html embed file](https://github.com/enderchriss/sug-3/releases/download/PORTABLE/sug-3.html) provided in this repository
 
 with any browser, open the .html file you downloaded
 
