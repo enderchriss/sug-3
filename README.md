@@ -20,7 +20,7 @@ SOME, of these images, [shockwave flash files](https://en.wikipedia.org/wiki/Ado
 
 all icons, images, and any sort of media displayed in this site belong to their rightful owners
 
-> for any DMCA, contact [this email](skipperbusiness439@gmail.com), with proof of ownership of content, and clean, and thorough messaging
+> for any DMCA, contact skipperbusiness439@gmail.com, with proof of ownership of content, and clean, and thorough messaging
 
 ---
 
@@ -43,9 +43,9 @@ all icons, images, and any sort of media displayed in this site belong to their 
 > these are some unblock methods for this site or others, some of these may or may not work
 
 ### CHROME:CHROMESIGNIN
-> you NEED to be on google chrome for this to work, other chromium based browsers like [Brave](https://brave.com/) or [Helium](https://helium.computer/) may or may not have this browser flag
+> you NEED to be on chromium OS for this to work, this browser flag only occurs on chromebooks, and such.
 
-1. on your chrome search bar, type chrome://chromesignin
+1. on your chrome search bar, type chrome://chrome-signin
 
 2. there should be a google sign in page displayed.
 
@@ -53,7 +53,7 @@ all icons, images, and any sort of media displayed in this site belong to their 
 
 4. if prompted, do the captcha
 
-5. you will be prompted to a microsoft sign in page
+5. you will be taken to a microsoft sign in page
 
 6. press other sign in methods
 
@@ -81,12 +81,15 @@ all icons, images, and any sort of media displayed in this site belong to their 
 
 ## CHANGELOG
 
+### RELEASE V1.1
+
+
 ### RELEASE V1.0
-* Released with a total of 20 games
-* 4 genres of games (flash, steam, external, mobile)
-* non-working info button
-* non working changelog button
-* splashscreen
-* update splash/notification
-* cool glass header
-* sounds
+- Released with a total of 20 games
+- 4 genres of games (flash, steam, external, mobile)
+- non-working info button
+- non working changelog button
+- splashscreen
+- update splash/notification
+- cool glass header
+- sounds
