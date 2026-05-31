@@ -16,7 +16,7 @@ a lot of these game ports SHOWN, are hosted from repos i created, i did not crea
 ## COPYRIGHT
 this site contains and utilizes [Valve Corporation](https://www.valvesoftware.com/en/)'s STEAM DECK UI sounds
 
-SOME, of these images, [shockwave flash files](https://en.wikipedia.org/wiki/Adobe_Shockwave), or games are fetched from external CDN servers, and are not hosted directly on this site.
+SOME, of these images, [shockwave flash files](https://en.wikipedia.org/wiki/Adobe_Shockwave), or games are fetched from external CDN servers, and may or may not hosted directly on this site or on SUG-3 repositories.
 
 all icons, images, and any sort of media displayed in this site belong to their rightful owners
 
