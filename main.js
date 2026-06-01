@@ -84,10 +84,22 @@ const gamesIndex = [
         Link: "https://enderchriss.github.io/raft-sug-3/",
     },
     {
-        Name: "Learn 2 Fly",
+        Name: "Learn to Fly",
         Genre: "Flash",
         ImageSrc: "https://cdn2.steamgriddb.com/thumb/d79e00d02d0ceafcef88f9b6c491367b.png",
         Link: "https://enderchriss.github.io/swffiles3/LearnToFly.swf",
+    },
+    {
+        Name: "Learn to Fly 2",
+        Genre: "Flash",
+        ImageSrc: "https://cdn2.steamgriddb.com/thumb/654545811d9e8908c2b3f731b570efb9.jpg",
+        Link: "https://enderchriss.github.io/swffiles3/learn to fly 2.swf",
+    },
+    {
+        Name: "Learn to Fly 3",
+        Genre: "Flash",
+        ImageSrc: "https://cdn2.steamgriddb.com/thumb/7cf3a0e4045dc8e6b2aea2319ae903f8.jpg",
+        Link: "https://enderchriss.github.io/swffiles3/learn-to-fly3.swf",
     },
     {
         Name: "Brotato",
@@ -106,6 +118,12 @@ const gamesIndex = [
         Genre: "Steam",
         ImageSrc: "https://cdn2.steamgriddb.com/thumb/8c433a09bd26b943147c4d9bacb15efc.jpg",
         Link: "https://enderchriss.github.io/celeste-sug-3/",
+    },
+    {
+        Name: "Tetris",
+        Genre: "Flash",
+        ImageSrc: "https://cdn2.steamgriddb.com/thumb/61a6ab285b480677841895cc5d251cf4.jpg",
+        Link: "https://enderchriss.github.io/swffiles3/tetris.swf",
     },
     {
         Name: "Stardew Valley",
@@ -134,15 +152,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const navButtons = document.getElementsByClassName("nav-button")
     const genreButtons = document.getElementsByClassName("genre-icon")
-    const splashContainer = document.getElementById('update-splash-container')
-    const splashScreenContainer = document.getElementById("splash-screen-container")
-    const gameContainer = document.getElementById("game-container")
 
-    const version = "V1.0"
+    const gameButton = document.getElementById("games-button")
+    const infoButton = document.getElementById("info-button")
+
+    const splashContainer = document.getElementById('update-splash-container')
+    const updateSplash = document.getElementById("update-splash")
+    const splashScreenContainer = document.getElementById("splash-screen-container")
+    
+    const gameContainer = document.getElementById("game-container")
+    const infoContainer = document.getElementById("info-container")
+
+    const containers = [gameContainer, infoContainer]
+
+    const version = "V1.1"
+    const debugSplash = false
+
+    const githubUrl = 'https://raw.githubusercontent.com/enderchriss/sug-3/main/README.md'
 
     splashContainer.style.display = 'none'
 
-    if(version == localStorage.getItem("StoredVersion")){
+    if(version == localStorage.getItem("StoredVersion") && debugSplash == false){
         
     }else{
         setTimeout(() => {
@@ -158,21 +188,32 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 5000)
 
         localStorage.setItem("StoredVersion", version)
+
+        updateSplash.innerHTML = "Skippers Unblocked Games 3 has updated to "+version+", see the changelog <a href=''>here</A>"
     }
 
     setTimeout(() => {
-            splashScreenContainer.style.transition = 'opacity 0.5s ease, transform 0.5s ease'
-            splashScreenContainer.style.opacity = '0'
-            splashScreenContainer.style.transform = 'translateY(20px)'
+        splashScreenContainer.style.transition = 'opacity 0.5s ease, transform 0.5s ease'
+        splashScreenContainer.style.opacity = '0'
+        splashScreenContainer.style.transform = 'translateY(20px)'
 
-            setTimeout(() => splashScreenContainer.style.display = 'none', 500)
-        }, 1000)
+        setTimeout(() => splashScreenContainer.style.display = 'none', 500)
+    }, 1000)
 
     for (let nav of navButtons){
         nav.addEventListener("click", function(){
             const tabSound = new Audio('./sounds/deck_ui_tab_transition_01.wav')
-            
             tabSound.play()
+
+            containers.forEach(cont => {
+                cont.style.transition = 'none'
+                cont.style.opacity = '0'
+                
+                setTimeout(() => {
+                    cont.style.transition = 'opacity 0.5s ease, transform 0.5s ease'
+                    cont.style.opacity = '1'
+                },500)
+            })
         })
     }
     for (let genre of genreButtons){
@@ -230,6 +271,38 @@ document.addEventListener('DOMContentLoaded', () => {
             game.style.display = name.includes("external") ? "block" : "none"
         })
     })
+
+    gameButton.addEventListener("click", function(){
+        containers.forEach(cont => {
+            cont.style.display = "none"
+        })
+        gameContainer.style.display = "grid"
+    })
+    infoButton.addEventListener("click", function(){
+        containers.forEach(cont => {
+            cont.style.display = "none"
+        })
+        infoContainer.style.display = "block"
+    })
+
+    function toRaw(url) {
+      return url
+        .replace('https://github.com/', 'https://raw.githubusercontent.com/')
+        .replace('/blob/', '/');
+    }
+
+    fetch(toRaw(githubUrl))
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`)
+        return res.text()
+      })
+      .then(md => {
+        document.getElementById('info-container').innerHTML = marked.parse(md)
+      })
+      .catch(err => {
+        document.getElementById('info-container').textContent = 'Failed to load: ' + err.message
+      })
+    document.getElementById('info-container').style.display = "none"
 })
 
 
