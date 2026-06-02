@@ -60,6 +60,12 @@ const gamesIndex = [
         Link: "https://enderchriss.github.io/undertale-sug-3/",
     },
     {
+        Name: "UNDERTALE Yellow",
+        Genre: "Steam",
+        ImageSrc: "https://cdn2.steamgriddb.com/thumb/513f718593a988efe43fc5f63fda26eb.jpg",
+        Link: "https://enderchriss.github.io/undertale-yellow-sug-3/",
+    },
+    {
         Name: "Minecraft",
         Genre: "External",
         ImageSrc: "https://cdn2.steamgriddb.com/thumb/7344bcd24a4a0393f45cad1a212c62e7.jpg",
@@ -76,6 +82,12 @@ const gamesIndex = [
         Genre: "Steam",
         ImageSrc: "https://cdn2.steamgriddb.com/thumb/c4d245ccd50808ad80abfbeb542c3394.jpg",
         Link: "https://enderchriss.github.io/people-sug-3/",
+    },
+    {
+        Name: "Cookie Clicker",
+        Genre: "Steam",
+        ImageSrc: "https://cdn2.steamgriddb.com/thumb/c99405c391f2e15f092d6d879de34f1c.jpg",
+        Link: "https://enderchriss.github.io/cookie-sug-3/",
     },
     {
         Name: "Raft",
@@ -165,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const containers = [gameContainer, infoContainer]
 
-    const version = "V1.1"
+    const version = "V1.1.1"
     const debugSplash = false
 
     const githubUrl = 'https://raw.githubusercontent.com/enderchriss/sug-3/main/README.md'
