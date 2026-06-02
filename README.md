@@ -81,6 +81,9 @@ all icons, images, and any sort of media displayed in this site belong to their 
 
 ## CHANGELOG
 
+### RELEASE V1.1.1
+- added 2 more games
+
 ### RELEASE V1.1
 - added 3 more games
 - info tab now works, and reflects https://github.com/enderchriss/sug-3/blob/main/README.md
