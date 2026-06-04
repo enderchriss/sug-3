@@ -81,20 +81,20 @@ all icons, images, and any sort of media displayed in this site belong to their 
 
 ## CHANGELOG
 
-### RELEASE V1.1.2
+### RELEASE V1.1.2 - 6/3/26
 - fixed 1 game
 - removed 1 game
 
-### RELEASE V1.1.1
+### RELEASE V1.1.1 - 6/1/26
 - added 2 more games
 
-### RELEASE V1.1
+### RELEASE V1.1 - 5/31/26
 - added 3 more games
 - info tab now works, and reflects https://github.com/enderchriss/sug-3/blob/main/README.md
 - fixed update splash/notification
 - improved games spacing
 
-### RELEASE V1.0
+### RELEASE V1.0 - 5/30/26
 - released with a total of 20 games
 - 4 genres of games (flash, steam, external, mobile)
 - non-working info button
