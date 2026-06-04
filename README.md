@@ -81,6 +81,10 @@ all icons, images, and any sort of media displayed in this site belong to their 
 
 ## CHANGELOG
 
+### RELEASE V1.1.2
+- fixed 1 game
+- removed 1 game
+
 ### RELEASE V1.1.1
 - added 2 more games
 
