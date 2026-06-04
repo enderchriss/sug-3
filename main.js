@@ -84,12 +84,6 @@ const gamesIndex = [
         Link: "https://enderchriss.github.io/people-sug-3/",
     },
     {
-        Name: "Cookie Clicker",
-        Genre: "Steam",
-        ImageSrc: "https://cdn2.steamgriddb.com/thumb/c99405c391f2e15f092d6d879de34f1c.jpg",
-        Link: "https://enderchriss.github.io/cookie-sug-3/",
-    },
-    {
         Name: "Raft",
         Genre: "Steam",
         ImageSrc: "https://cdn2.steamgriddb.com/thumb/0d8de77c6e2d3af5ab0e69a92e035d93.jpg",
@@ -177,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const containers = [gameContainer, infoContainer]
 
-    const version = "V1.1.1"
+    const version = "V1.1.2"
     const debugSplash = false
 
     const githubUrl = 'https://raw.githubusercontent.com/enderchriss/sug-3/main/README.md'
