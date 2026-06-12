@@ -2,6 +2,8 @@
 
 > open source, sort of modern, goodlooking, unblocked games site, made to mimick Deck UI's look
 
+[visit my stuff](https://guns.lol/skippertsb)
+
 ---
 
 ## NOTE
